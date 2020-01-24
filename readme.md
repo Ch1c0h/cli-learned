@@ -13,7 +13,7 @@ git add README.md
 
 git commit -m "first commit"
 
-git remote add origin https://github.com/gerssonmg/git-commands.git
+git remote add origin https://github.com/gerssonmg/cli-learned.git
 
 git push -u origin master
 ```
@@ -40,6 +40,24 @@ Ctrl + Shift + v
 
 😄🤡🤧
 :heart:
+
+# adb
+
+### Introduction
+
+> > Android Debug Bridge
+
+#### Commands
+
+```
+List devices connecting
+>> adb devices
+
+output example:
+List of devices attached
+emulator-5554 offline   # Google emulator
+14ed2fcc device         # Physical device
+```
 
 # NodeJS
 
