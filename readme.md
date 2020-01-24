@@ -92,7 +92,8 @@ emulator-5554 offline   # Google emulator
 #### Commands
 
 ```
->> wait commit
+>> react-native init
+>> react-native run-android
 ```
 
 # Docker
