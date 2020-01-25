@@ -172,12 +172,12 @@ emulator-5554 offline   # Google emulator
 
 ### Introduction
 
-> > wait commit
+> > Get list of globally installed packages
 
 #### Commands
 
 ```
->> wait commit
+>> npm list -g --depth 0
 ```
 
 # yarn
