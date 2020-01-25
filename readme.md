@@ -184,12 +184,53 @@ emulator-5554 offline   # Google emulator
 
 ### Introduction
 
-> > wait commit
+> > Yarn provides a rich set of command-line commands to help you with various aspects of your Yarn package, including installation, administration, publishing, etc.
 
-#### Commands
+While all of the available commands are provided here, in alphabetical order, some of the more popular commands are:
+
+Adds a package to use in your current package:
 
 ```
->> wait commit
+yarn add
+```
+
+Initializes the development of a package:
+
+```
+yarn init
+```
+
+Installs all the dependencies defined in a package.json file:
+
+```
+yarn install
+```
+
+Publishes a package to a package manager:
+
+```
+yarn publish
+```
+
+Removes an unused package from your current package:
+
+```
+yarn remove
+```
+
+#### Commands, specific version:
+
+```
+
+installs the “latest” version of the package::
+>> yarn add package-name
+
+installs a specific version of a package from the registry.
+>> yarn add package-name@1.2.3
+
+installs a specific “tag” (e.g. beta, next, or latest).
+>> yarn add package-name@tag
+
 ```
 
 # CMD
